@@ -1,0 +1,34 @@
+{
+  "name": "firebase-node-server",
+  "version": "1.0.0",
+  "description": "API serving data from remote mysql server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andytrandaoanh/firebase-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "firebase"
+  ],
+  "author": "Andy Tran Dao Anh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andytrandaoanh/firebase-node-server/issues"
+  },
+  "homepage": "https://github.com/andytrandaoanh/firebase-node-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
